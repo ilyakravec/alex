@@ -1,0 +1,99 @@
+.win {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.win__inner {
+  width: 330px;
+  height: 600px;
+  background-color: #D88F8F;
+  border-radius: 61px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.win__inner__wrapper {
+  position: relative;
+}
+.win__inner__wrapper__buttons {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 900;
+  transition: 0.1s ease-in-out;
+}
+.win__inner__wrapper .button-a {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  left: -35px;
+}
+.win__inner__wrapper .button-b {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  left: -16px;
+}
+.win__inner__wrapper .button-x {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  right: 35px;
+}
+.win__inner__wrapper .button-y {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -11px;
+  right: 15px;
+}
+.win__inner__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 244px;
+}
+.win__inner__display {
+  margin-top: 38px;
+  width: 244px;
+  height: 368px;
+  background-color: #D9D9D9;
+  border-start-end-radius: 50px;
+  border-start-start-radius: 50px;
+  margin-bottom: 41px;
+}
+.win__inner__button {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 15px;
+  width: 149px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+  background-color: #D9D9D9;
+}
+
+.win__inner__wrapper__buttons {
+  background-color: #D9D9D9;
+}
+.win__inner__wrapper__buttons:hover {
+  transform: translateY(-1px);
+}
+
+.win__inner__button {
+  transition: 0.1s ease-in-out;
+}
+.win__inner__button:hover {
+  transform: translateY(-2px);
+}/*# sourceMappingURL=main.css.map */

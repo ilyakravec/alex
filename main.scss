@@ -1,0 +1,138 @@
+.win {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+
+    &__inner {
+        width: 330px;
+        height: 600px;
+
+        background-color: #D88F8F;
+
+        border-radius: 61px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &__wrapper {
+
+            position: relative;
+
+            &__buttons {
+                display: inline-block;
+                width: 27px;
+                height: 27px;
+                border: none;
+
+                border-radius: 50px;
+
+                font-family: 'Montserrat', sans-serif;
+
+                color: black;
+
+                cursor: pointer;
+                text-transform: uppercase;
+
+                font-weight: 900;
+
+                transition: .1s ease-in-out;
+
+            }
+
+            .button-a {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 30px;
+                left: -35px;
+
+
+            }
+
+            .button-b {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 8px;
+                left: -16px;
+            }
+
+            .button-x {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: 8px;
+                right: 35px
+            }
+
+            .button-y {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -11px;
+                right: 15px;
+            }
+        }
+
+        &__buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 244px;
+
+        }
+
+        &__display {
+            margin-top: 38px;
+
+            width: 244px;
+            height: 368px;
+
+            background-color: #D9D9D9;
+
+            border-start-end-radius: 50px;
+            border-start-start-radius: 50px;
+            margin-bottom: 41px;
+        }
+
+        &__button {
+            display: inline-block;
+            padding: 15px 20px;
+
+            font-size: 15px;
+
+            width: 149px;
+
+            font-family: 'Montserrat', sans-serif;
+
+            text-transform: uppercase;
+
+            border-radius: 50px;
+
+            border: none;
+
+            font-weight: 900;
+            cursor: pointer;
+            background-color: #D9D9D9;
+        }
+    }
+
+}
+
+.win__inner__wrapper__buttons {
+    background-color: #D9D9D9;
+
+    &:hover {
+        transform: translateY(-1px);
+    }
+}
+
+.win__inner__button {
+
+    transition: .1s ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+}
